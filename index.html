@@ -4,11 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CardKing - cadastro</title>
+    <link rel="stylesheet" href="style/style.css" />
   </head>
   <body>
-    <header>
+    <header class="headerLogin">
       <p>Aqui é onde você encontra as melhores cartas</p>
-      <img src="image/cardking.png" alt="logo do site" />
+      <img src="image/cardking.png" alt="logo do site" class="logo" />
     </header>
     <h1>Bem vindo ao melhor site de colecionador de cartas</h1>
     <main>
@@ -23,7 +24,37 @@
             <input type="submit" value="Enviar" />
           </form>
         </div>
+        <div>
+          <form action="" method="get">
+            <h2>Cadastro</h2>
+            <label for="nomeCadastro">Nome:</label>
+            <input
+              type="text"
+              id="nomeCadastro"
+              placeholder="Digite seu nome"
+            />
+            <label for="emailCadastro">Email:</label>
+            <input
+              type="email"
+              id="emailCadastro"
+              placeholder="Digite seu email"
+            />
+            <label for="senhaCadastro">Senha:</label>
+            <input
+              type="password"
+              id="senhaCadastro"
+              placeholder="Digite sua senha"
+            />
+            <input type="submit" value="Enviar" />
+          </form>
+        </div>
       </section>
     </main>
+    <section>
+      <img src="image/banner.png" alt="Banner de desconto" />
+    </section>
+    <footer>
+      <p>Todos direitos reservados @cardKing</p>
+    </footer>
   </body>
 </html>

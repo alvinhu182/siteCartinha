@@ -1,0 +1,28 @@
+*{
+   margin: 0
+}
+body{
+height:100%;
+position:relative;
+background-color: rgb(235,222,245);
+background-image:url('/image/cardking.png');
+background-repeat:no-repeat;
+background-position:right top;
+overflow: hidden
+}
+.headerLogin{
+    color: #dfaf67;
+    background-color: blueviolet;
+    font-size: 25px;
+    margin-bottom: 20px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.logo{
+    max-height: 100px;
+    margin-bottom: 10px;
+}
+
